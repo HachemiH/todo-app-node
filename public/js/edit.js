@@ -1,6 +1,11 @@
 document.addEventListener("click", function(e) {
   if (e.target.classList.contains("edit-me")) {
     let userInput = prompt("Veuillez entrer votre nouvelle tâche ...");
-    console.log(userInput);
+    axios
+      .post("/update-item", { itemUpdated: userInput })
+      .then()
+      .catch(err => {
+        console.log(err);
+      });
   }
 });

@@ -21,3 +21,4 @@
 17. Ajout d'un `prompt` dans l'écouteur d'évènement + affichage du contenu dans la console du navigateur
 18. Ajout du `CDN` de la librairie `Axios` dans le template Bootstrap
 19. Ajout d'une requête `post` pour l'url `/update-item`
+20. Ajout d'une requête `post` depuis `edit.js` avec `Axios` qui renvoi le contenu du prompt au serveur + test dans la console de Node
