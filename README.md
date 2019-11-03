@@ -19,6 +19,8 @@ L'idée ici n'est pas de créer une todo liste fonctionnelle et optimisée, mais
 
 Ce petit projet est la première étape de découverte `Express`, `Sequelize` et `PostgreSQL`
 
+---
+
 
 ## Toutes les étapes pour créer une Todo Liste sous Node.JS :
 
