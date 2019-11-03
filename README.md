@@ -20,3 +20,4 @@
 16. Création du fichier statique `edit.js` dans public + ajout d'un écouteur d'évènement `click` sur le bouton `Edit`
 17. Ajout d'un `prompt` dans l'écouteur d'évènement + affichage du contenu dans la console du navigateur
 18. Ajout du `CDN` de la librairie `Axios` dans le template Bootstrap
+19. Ajout d'une requête `post` pour l'url `/update-item`

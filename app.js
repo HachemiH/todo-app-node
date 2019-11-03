@@ -60,7 +60,7 @@ app.get("/", (req, res) => {
         </ul>
         
       </div>
-      
+
       <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
       <script src="/js/edit.js"></script>
       </body>
@@ -78,6 +78,10 @@ app.post("/", (req, res) => {
     .catch(err => {
       console.log(err);
     });
+});
+
+app.post("/update-item", (req, res) => {
+  res.send("Test update successfull");
 });
 
 app.listen(port);
