@@ -12,3 +12,4 @@
 8. Préparer la base de donnée (`postgreSQL`)
 9. Installer l'ORM `Sequelize` + initialisation de `Sequelize` + test de connection
 10. Déplacer les informations de connection à la base de donnée dans `config/database.js`
+11. Création du model `Item` + cablage d'une requête `Sequelize findAll` dans la requête `post`
