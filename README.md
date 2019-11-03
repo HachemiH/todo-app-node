@@ -9,3 +9,5 @@
 5. Coller le template Bootstrap de la todo dans le `get` de l'accueil
 6. Création d'une première requête `put` + test avec `Postman`
 7. Cabler le formulaire avec la requête `post`
+8. Préparer la base de donnée (`postgreSQL`)
+9. Installer l'ORM `Sequelize` + initialisation de `Sequelize` + test de connection
