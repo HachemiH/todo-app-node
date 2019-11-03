@@ -1,6 +1,26 @@
 # Todo List basique faite en Node.JS
 
-## Etapes :
+## Objectifs :
+
+Petite todo liste faite en Node.js de façon relativement basique.
+
+L'idée ici n'est pas de créer une todo liste fonctionnelle et optimisée, mais de comprendre quelques notions de bases pour découvrir Node.JS : 
+* L'initialisation d'un projet sous `Express`
+* La création des première requête (`get` et `post`)
+* Connecter un formulaire avec requêtes `HTTP`
+* Découvrir l'ORM `Sequelize` avec une mise en relation vers `PostgreSQL` :
+  * installation
+  * initialisation
+  * connection
+  * création du premier model
+  * premières manipulations `CRUD`
+* Envoyer des données du back vers le front
+* Envoyer des données du front vers le back avec `Axios`
+
+Ce petit projet est la première étape de découverte `Express`, `Sequelize` et `PostgreSQL`
+
+
+## Toutes les étapes pour créer une Todo Liste sous Node.JS :
 
 1. Initiation du projet (git + npm)
 2. Installation d'`Express`
