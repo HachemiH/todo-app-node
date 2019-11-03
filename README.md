@@ -13,3 +13,4 @@
 9. Installer l'ORM `Sequelize` + initialisation de `Sequelize` + test de connection
 10. Déplacer les informations de connection à la base de donnée dans `config/database.js`
 11. Création du model `Item` + cablage d'une requête `Sequelize findAll` dans la requête `post`
+12. Modification de la requête `post` pour insertion du contenu de l'`input` dans la bdd avec `Sequelize`
