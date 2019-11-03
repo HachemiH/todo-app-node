@@ -52,7 +52,7 @@ app.get("/", (req, res) => {
                 <li class="list-group-item list-group-item-action d-flex align-items-center justify-content-between">
                   <span class="item-text">${item.dataValues.item}</span>
                   <div>
-                    <button class="edit-me btn btn-secondary btn-sm mr-1">Edit</button>
+                    <button data-id="${item.dataValues.id}" class="edit-me btn btn-secondary btn-sm mr-1">Edit</button>
                     <button class="delete-me btn btn-danger btn-sm">Delete</button>
                   </div>
                 </li>`;
@@ -82,8 +82,14 @@ app.post("/", (req, res) => {
 });
 
 app.post("/update-item", (req, res) => {
-  console.log(req.body.itemUpdated);
-  res.send("Success");
+  Item.update(
+    { item: req.body.itemUpdated },
+    {
+      where: {
+        id: req.body.id
+      }
+    }
+  );
 });
 
 app.listen(port);
