@@ -60,6 +60,8 @@ app.get("/", (req, res) => {
         </ul>
         
       </div>
+      
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
       <script src="/js/edit.js"></script>
       </body>
       </html>`);

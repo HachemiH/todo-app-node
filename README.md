@@ -19,3 +19,4 @@
 15. Remplacer les items écrit en dur dans le template HTML par ceux enregistrés en bdd 
 16. Création du fichier statique `edit.js` dans public + ajout d'un écouteur d'évènement `click` sur le bouton `Edit`
 17. Ajout d'un `prompt` dans l'écouteur d'évènement + affichage du contenu dans la console du navigateur
+18. Ajout du `CDN` de la librairie `Axios` dans le template Bootstrap
