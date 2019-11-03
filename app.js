@@ -55,4 +55,8 @@ app.get("/", (req, res) => {
 </html>`);
 });
 
+app.put("/create-item", (req, res) => {
+  res.send("Form successfully transmitted !!!");
+});
+
 app.listen(port);
