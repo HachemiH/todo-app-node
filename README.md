@@ -14,3 +14,4 @@
 10. Déplacer les informations de connection à la base de donnée dans `config/database.js`
 11. Création du model `Item` + cablage d'une requête `Sequelize findAll` dans la requête `post`
 12. Modification de la requête `post` pour insertion du contenu de l'`input` dans la bdd avec `Sequelize`
+13. Ajouter un `findAll` de `Sequelize` dans la requête `get` de l'accueil et afficher le contenu dans la console
