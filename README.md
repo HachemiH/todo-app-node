@@ -15,3 +15,6 @@
 11. Création du model `Item` + cablage d'une requête `Sequelize findAll` dans la requête `post`
 12. Modification de la requête `post` pour insertion du contenu de l'`input` dans la bdd avec `Sequelize`
 13. Ajouter un `findAll` de `Sequelize` dans la requête `get` de l'accueil et afficher le contenu dans la console
+14. Déplacer le template Bootstrap HTML dans la requête `findAll` à la place de la ligne `console.log`
+15. Remplacer les items écrit en dur dans le template HTML par ceux enregistrés en bdd 
+16. Création du fichier statique `edit.js` dans public + ajout d'un écouteur d'évènement `click` sur le bouton `Edit`
