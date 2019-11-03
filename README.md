@@ -22,3 +22,6 @@
 18. Ajout du `CDN` de la librairie `Axios` dans le template Bootstrap
 19. Ajout d'une requête `post` pour l'url `/update-item`
 20. Ajout d'une requête `post` depuis `edit.js` avec `Axios` qui renvoi le contenu du prompt au serveur + test dans la console de Node
+21. Cabler le bouton `Edit` pour l'édition de l'item en base de données (récupération de l'id + modification) `/!\` Rechargement obligatoire pour afficher les nouvelles valeurs !!!!
+22. Cabler le bouton `Delete` pour la suppression de l'item en base de données (récupération de l'id + suppression) `/!\` Rechargement obligatoire pour afficher les nouvelles valeurs !!!!
+
