@@ -18,3 +18,4 @@
 14. Déplacer le template Bootstrap HTML dans la requête `findAll` à la place de la ligne `console.log`
 15. Remplacer les items écrit en dur dans le template HTML par ceux enregistrés en bdd 
 16. Création du fichier statique `edit.js` dans public + ajout d'un écouteur d'évènement `click` sur le bouton `Edit`
+17. Ajout d'un `prompt` dans l'écouteur d'évènement + affichage du contenu dans la console du navigateur
