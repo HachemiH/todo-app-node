@@ -11,3 +11,4 @@
 7. Cabler le formulaire avec la requête `post`
 8. Préparer la base de donnée (`postgreSQL`)
 9. Installer l'ORM `Sequelize` + initialisation de `Sequelize` + test de connection
+10. Déplacer les informations de connection à la base de donnée dans `config/database.js`
